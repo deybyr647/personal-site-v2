@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+
+.namewithimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+
+.namewithimage img{
+    width: 40%;
+    border-radius: 50%;
+}
