@@ -19,6 +19,7 @@
 	margin: 0;
 	padding: 0;
 	background: #f7f7f7;
+	z-index: 99;
 }
 
 .cbp-vimenu li a {

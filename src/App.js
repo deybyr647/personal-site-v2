@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faNodeJs, faGithub, faCss3} from '@fortawesome/free-brands-svg-icons';
 
 import About from './pages/about/aboutPage';
+import Portfolio from './pages/portfolio/portfolioPage';
+import Resume from './pages/resume/resumePage';
 
 import IconMenu from './components/iconmenu/iconmenu';
 
@@ -75,9 +77,15 @@ let LandingContent = () => (
 let App = () => (
   <div className='container'>
     <Router>
-      <IconMenu/>
-
       <Switch>
+        <Route path='/resume'>
+          <Resume/>
+        </Route>
+
+        <Route path='/portfolio'>
+          <Portfolio/>
+        </Route>
+
         <Route path='/about'>
           <About/>
         </Route>
@@ -87,9 +95,8 @@ let App = () => (
         </Route>
       </Switch>
 
+      <IconMenu/>
     </Router>
-
-   
   </div>
 )
 

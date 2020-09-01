@@ -1,33 +1,24 @@
 import React from 'react';
 import './iconmenu.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faFileAlt, faLink, faHome } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faFileAlt, faLink, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
-
-//const element = <FontAwesomeIcon icon={faCoffee} />;
-
 
 let links = [
     {
-        icon: <FontAwesomeIcon icon={faLink}/>,
-        url: 'https://deybyr647.com',
-        title: 'Personal Website',
-        rel: 'noopener noreferrer',
-        target: '_blank'
+        icon: <FontAwesomeIcon icon={faBriefcase}/>,
+        url: '/portfolio',
+        title: 'Portfolio'
     },
     {
-        icon: <FontAwesomeIcon icon={faBriefcase}/>,
-        url: 'https://deybyr647.com',
-        title: 'Portfolio',
-        rel: 'noopener noreferrer',
-        target: '_blank'
+        icon: <FontAwesomeIcon icon={faUser}/>,
+        url: '/about',
+        title: 'About'
     },
     {
         icon: <FontAwesomeIcon icon={faFileAlt}/>,
-        url: '/about',
-        title: 'Resume',
-        rel: 'noopener noreferrer',
-        target: '_blank'
+        url: '/resume',
+        title: 'Resume'
     }
 ]
 
@@ -42,6 +33,7 @@ let IconMenu = () => {
             {links.map(link => (
                 <IconLink linkObj={link}/>
             ))}
+        <li title='Old Personal Site'><a href='https://deybyr647.com'><FontAwesomeIcon icon={faLink}/></a></li>
         </ul>
     )
 } 
