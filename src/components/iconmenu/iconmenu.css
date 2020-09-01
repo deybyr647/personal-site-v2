@@ -50,7 +50,6 @@
 
 .cbp-vimenu li a:before {
 	font-family: 'ecoico';
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	text-indent: 0em;
@@ -63,12 +62,12 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.cbp-vimenu li a.icon-logo:before {
+/*.cbp-vimenu li a.icon-logo:before {
 	content: "DR";
 	font-weight: 700;
 	font-size: 300%;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-}
+}*/
 
 /* Example for media query (depends on total height of menu) */
 @media screen and (max-height: 34.9375em) { 
