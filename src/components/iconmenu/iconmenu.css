@@ -23,7 +23,7 @@
 
 .cbp-vimenu li a {
 	display: block;
-	text-indent: -500em; /*Makes html conent disappear*/
+	/*text-indent: -500em; /*Makes html conent disappear*/
 	height: 5em;
 	width: 5em;
 	line-height: 5em;
@@ -68,30 +68,6 @@
 	font-weight: 700;
 	font-size: 300%;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-}
-
-.icon-search:before {
-	content: "email";
-}
-
-.icon-archive:before{
-	content: "linkedin"
-}
-
-.icon-download:before {
-	content: "resume";
-}
-
-.icon-location:before {
-	content: "portfolio";
-}
-
-.icon-images:before {
-	content: "etc";
-}
-
-.icon-pencil:before {
-	content: "About";
 }
 
 /* Example for media query (depends on total height of menu) */

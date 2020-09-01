@@ -1,7 +1,9 @@
 import React from 'react';
-//import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import './Landing.css';
 import personalImage from './images/IMG_5314.jpg';
+
+import About from './pages/about/aboutPage';
 
 import IconMenu from './components/iconmenu/iconmenu';
 
@@ -20,7 +22,18 @@ let LandingContent = ({children}) => (
 
 let App = () => (
   <div className='container'>
-    <IconMenu/>
+    <Router>
+      <IconMenu/>
+
+      <Switch>
+        <Route path='/about'>
+            <About/>
+        </Route>
+      </Switch>
+
+
+    </Router>
+    
     <LandingContent>
     <NameWithImage/>
     </LandingContent>
