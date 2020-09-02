@@ -1,9 +1,12 @@
 import React from 'react';
 import './aboutPage.css';
-import personalImage from '../../images/IMG_5314.webp';
+
+import NameWithImage from '../../components/namewithimage/namewithimage';
 
 let About = () => (
-    <img alt='Deyby' src={personalImage}></img>
+    <div className='main'>
+        <NameWithImage/>
+    </div>
 )
 
 export default About;

@@ -8,30 +8,6 @@ body{
     margin: auto;
 }
 
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 0 auto;
-    width: 90%;
-}
-
-.namewithimage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 3%;
-}
-
-.namewithimage img{
-    width: 40%;
-    border-radius: 50%;
-}
-
 .intro{
     display: flex;
     justify-content: center;

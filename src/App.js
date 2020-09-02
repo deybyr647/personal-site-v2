@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.css';
-import personalImage from './images/IMG_5314.webp';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faNodeJs, faGithub, faCss3} from '@fortawesome/free-brands-svg-icons';
@@ -10,14 +9,10 @@ import About from './pages/about/aboutPage';
 import Portfolio from './pages/portfolio/portfolioPage';
 import Resume from './pages/resume/resumePage';
 
+import NameWithImage from './components/namewithimage/namewithimage';
 import IconMenu from './components/iconmenu/iconmenu';
+import Footer from './components/footer/footer';
 
-let NameWithImage = () => (
-  <div className='namewithimage'>
-    <img alt='Deyby' src={personalImage}></img>
-    <h1>Deyby Rodriguez</h1>
-  </div>
-)
 
 let BriefIntro = () => (
   <div className='intro'>
@@ -96,6 +91,7 @@ let App = () => (
       </Switch>
 
       <IconMenu/>
+      <Footer/>
     </Router>
   </div>
 )
