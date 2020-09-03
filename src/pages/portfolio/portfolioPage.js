@@ -38,6 +38,12 @@ let projectList = [
     }
 ]
 
+let PortfolioHeader = () => (
+    <div className='main'>
+        <h1>My Portfolio</h1>
+    </div>
+)
+
 let Project = ({project}) => (
     <div className='project'>
         <h4>{project.name}</h4>
@@ -45,19 +51,23 @@ let Project = ({project}) => (
         <p>{project.description}</p>
 
         <div className='projectLinks'>
-            <a href={project.demoUrl}><FontAwesomeIcon icon={faLink}/></a>
-            <a href={project.githubUrl}><FontAwesomeIcon icon={faGithub}/></a>
+            <a target='_blank' rel='noopener noreferrer' href={project.demoUrl}><FontAwesomeIcon icon={faLink}/></a>
+            <a target='_blank' rel='noopener noreferrer' href={project.githubUrl}><FontAwesomeIcon icon={faGithub}/></a>
         </div>
     </div>
 )
 
+let ProjectContainer = () => (
+    <div className='main'>
+        {projectList.map(p => <Project project={p}/>)}
+    </div>
+)
 
 let Portfolio = () => (
-    <div className='main'>
-        {projectList.map(p => (
-            <Project project={p}/>
-        ))}
-    </div>
+    <>
+    <PortfolioHeader/>
+    <ProjectContainer/>
+    </>
 )
 
 export default Portfolio;

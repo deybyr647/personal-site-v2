@@ -1,0 +1,40 @@
+.aboutMe p{
+    text-align: center;
+    padding: 20px;
+}
+
+h4{
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.skills ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li{
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+    font-size: 36px;
+}
+
+.skills li:hover{
+    color: green;
+}

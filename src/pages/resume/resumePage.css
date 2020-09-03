@@ -1,10 +1,23 @@
-.resume{
-    display: block;
-    width: 55%;
-    height: 800px;
-    border: 2px solid green;
+.resumeContainer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-h1{
-    text-align: center;
+.PDFPage {
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 1px #ccc;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+    height: 0px;
+}
+
+.PDFPage > canvas {
+    max-width: 100%;
+    height: auto !important;
 }

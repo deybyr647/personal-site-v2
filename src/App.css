@@ -1,26 +1,13 @@
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-body{
-    margin: auto;
-}
-
 .intro{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
     width: 80%;
+    margin: 0 auto;
 }
 
-.intro h2{
-    text-align: center;
-}
-
-.intro p{
+.intro h2, p{
     text-align: center;
 }
 
@@ -31,9 +18,15 @@ body{
     flex-flow: column wrap;
     width: 80%;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .techUsed ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -42,10 +35,8 @@ body{
 .techUsed li{
     list-style-type: none;
     float: left;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-size: 60px;
+    padding: 15px;
+    font-size: 36px;
 }
 
 .techUsed li:hover{

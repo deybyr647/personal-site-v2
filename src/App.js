@@ -16,9 +16,9 @@ import Footer from './components/footer/footer';
 
 let BriefIntro = () => (
   <div className='intro'>
-    <h2>A Brief Intro...</h2>
+    <h2>A Brief Introduction...</h2>
     <p>Welcome to my site! <br/> 
-    Feel free to look around my site & take a look at my portfolio<br/>
+    Feel free to look around my site & take a look at my portfolio.<br/>
     I'm eager to engage in new projects & if you'd like to collaborate on a project,
     feel free to get in touch with me!
     </p>
@@ -70,7 +70,6 @@ let LandingContent = () => (
 )
 
 let App = () => (
-  <div className='container'>
     <Router>
       <Switch>
         <Route path='/resume'>
@@ -93,7 +92,6 @@ let App = () => (
       <IconMenu/>
       <Footer/>
     </Router>
-  </div>
 )
 
 export default App;
