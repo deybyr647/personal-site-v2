@@ -56,7 +56,7 @@ let RouteLink = ({routeObj}) => (
 )
 
 let ExternalLink = ({linkObj}) => (
-    <li title={linkObj.title}><a href={linkObj.url}>{linkObj.icon}</a></li>
+    <li title={linkObj.title}><a target='_blank' rel='noopener noreferrer' href={linkObj.url}>{linkObj.icon}</a></li>
 )
 
 let IconMenu = () => {
