@@ -1,7 +1,7 @@
 import React from 'react';
 import './iconmenu.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faFileAlt, faLink, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faFileAlt, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom";
 
@@ -43,11 +43,6 @@ let extLinks = [
         icon: <FontAwesomeIcon icon={faInstagram}/>,
         url: 'https://instagram.com/deybyr647',
         title: 'Instagram'
-    },
-    {
-        icon: <FontAwesomeIcon icon={faLink}/>,
-        url: '',
-        title: 'Old Site'
     }
 ]
 
