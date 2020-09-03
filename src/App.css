@@ -7,19 +7,13 @@
     margin: 0 auto;
 }
 
-.intro h2, p{
-    text-align: center;
-}
-
 .techUsed{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
     width: 80%;
-    text-align: center;
     margin: 0 auto;
-    margin-top: 10px;
 }
 
 .techUsed ul{
@@ -36,9 +30,9 @@
     list-style-type: none;
     float: left;
     padding: 15px;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .techUsed li:hover{
-    color: green;
+    color: #0E7C7B;
 }

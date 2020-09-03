@@ -17,9 +17,9 @@ import Footer from './components/footer/footer';
 let BriefIntro = () => (
   <div className='intro'>
     <h2>A Brief Introduction...</h2>
-    <p>Welcome to my site! <br/> 
-    Feel free to look around my site & take a look at my portfolio.<br/>
-    I'm eager to engage in new projects & if you'd like to collaborate on a project,
+    <p>Welcome to my site! <br/> <br/>
+    Feel free to look around my site & take a look at my portfolio.<br/> <br/>
+    I'm always eager to engage in new & exciting projects. <br/> <br/> If you'd like to collaborate on a project,
     feel free to get in touch with me!
     </p>
   </div>

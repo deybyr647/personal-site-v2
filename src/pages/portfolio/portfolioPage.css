@@ -4,7 +4,7 @@
     align-items: center;
     flex-flow: column wrap;
 
-    background-color: whitesmoke;
+    background-color: snow;
     margin-bottom: 20px;
 
     width: 80%;
@@ -29,8 +29,6 @@
 
 .projectLinks a{
     padding: 20px;
-    font-size: 26px;
-
-    color: skyblue;
+    font-size: 30px;
     text-decoration: none;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './iconmenu.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faFileAlt, faLink, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faFileAlt, faLink, faUser } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 
 let links = [
@@ -29,7 +29,7 @@ let IconLink = ({linkObj}) => (
 let IconMenu = () => {
     return(
         <ul className='cbp-vimenu'>
-        <li title='home'><Link to='/'>{<FontAwesomeIcon icon={faHome}/>}</Link></li>
+        <li className='initials' title='home'><Link to='/'><span>DR</span></Link></li>
             {links.map(link => (
                 <IconLink linkObj={link}/>
             ))}
