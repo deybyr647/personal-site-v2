@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
 import './App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -70,7 +70,7 @@ let LandingContent = () => (
 )
 
 let App = () => (
-    <Router>
+    <Router basename='/'>
       <Switch>
         <Route path='/resume'>
           <Resume/>
