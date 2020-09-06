@@ -5,13 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
-import { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake} from '../../images';
+import { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, Snake, nycCrime} from '../../images';
 
 let projectList = [
     {
         demoUrl: 'https://deybyr647.github.io/RecycleNearMe/',
         name: 'RecycleNearMe',
-        description: 'RecycleNearMe aims to educate its users about recycling, ecology, and related topics. The site also eases the process of recycling for its users by providing information on how to package recycle-able materials, and by using user geolocation to show nearby recycling centers within a certain radius of the users location. Map shows recycling center information, such as address and if the location is open/closed. Developed with HTML, CSS, JavaScript, Google Maps JavaScript API, Google Places API, GNews API, and NewsAPI',
+        description: 'A site which aims to educate its users about recycling & which also displays information about nearby recycling centers using user location. Created with HTML, CSS, JavaScript, Google Maps JavaScript API, Google Places API, GNews API and NewsAPI',
         img: RecycleNearMe,
         githubUrl: 'https://github.com/deybyr647/RecycleNearMe'
     },
@@ -30,6 +30,13 @@ let projectList = [
         githubUrl: 'https://github.com/deybyr647/p5-snake.js/'
     },
     {
+        demoUrl: 'https://colab.research.google.com/drive/1xeE7-buPI10MpJAooznkm8RTjsJOTVuE?usp=sharing',
+        name: 'NYC Crime Data Across The Years',
+        description: 'Data Science project which involved the analysis of criminal records spanning from 2010 to 2019, from New York City. Analysis was conducted using Python and Pandas within a Google Colaboratory Notebook',
+        img: nycCrime,
+        githubUrl: 'https://github.com/deybyr647/NYC-Crime-Data-Across-The-Years'
+    },
+    {
         demoUrl: 'https://deybyr647.github.io/CN-React-ToDoList/',
         name: 'React To Do List',
         description: 'Guided project, in which I created a To Do List app, along with some peers at a Google Code Next bootcamp using StackBlitz IDE, React.js and Bootstrap CSS',
@@ -40,7 +47,7 @@ let projectList = [
         demoUrl: 'https://deybyr647.github.io/snake.js/',
         name: 'Snake.js',
         description: 'A remake of the popular game Snake, made with HTML, CSS, and JavaScript',
-        img: P5_Snake,
+        img: Snake,
         githubUrl: 'https://github.com/deybyr647/snake.js/'
 
     }
