@@ -35,6 +35,14 @@ let projectList = [
         description: 'Guided project, in which I created a To Do List app, along with some peers at a Google Code Next bootcamp using StackBlitz IDE, React.js and Bootstrap CSS',
         img: ReactToDoList,
         githubUrl: 'https://github.com/deybyr647/CN-React-ToDoList'
+    },
+    {
+        demoUrl: 'https://deybyr647.github.io/snake.js/',
+        name: 'Snake.js',
+        description: 'A remake of the popular game Snake, made with HTML, CSS, and JavaScript',
+        img: P5_Snake,
+        githubUrl: 'https://github.com/deybyr647/snake.js/'
+
     }
 ]
 
