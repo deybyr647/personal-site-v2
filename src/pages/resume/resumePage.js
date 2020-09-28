@@ -20,10 +20,17 @@ let ResumeDoc = () => (
     </div>
 )
 
+let ExternalView = () => (
+    <div className='main'>
+        <h4><a target='_blank' rel='noopener noreferrer' href='/Resume.pdf'>View In A New Tab</a></h4>
+    </div>
+)
+
 let Resume = () => (
     <>
     <ResumeHeader/>
     <ResumeDoc/>
+    <ExternalView/>
     </>
 )
 
