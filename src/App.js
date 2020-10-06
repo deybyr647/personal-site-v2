@@ -1,18 +1,18 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faNodeJs, faGithub, faCss3} from '@fortawesome/free-brands-svg-icons';
 
-import About from './pages/about/aboutPage';
-import Portfolio from './pages/portfolio/portfolioPage';
-import Resume from './pages/resume/resumePage';
+const Portfolio = lazy(() => import('./pages/portfolio/portfolioPage'));
+const Resume = lazy(() => import('./pages/resume/resumePage'));
+const NameWithImage = lazy(() => import('./components/namewithimage/namewithimage'));
+const IconMenu = lazy(() => import('./components/iconmenu/iconmenu'));
+const Footer = lazy(() => import('./components/footer/footer'));
+const About = lazy(() => import('./pages/about/aboutPage'));
 
-import NameWithImage from './components/namewithimage/namewithimage';
-import IconMenu from './components/iconmenu/iconmenu';
-import Footer from './components/footer/footer';
-
+const renderLoader = () => <div className='loader'></div>;
 
 let BriefIntro = () => (
   <div className='intro'>
@@ -73,24 +73,37 @@ let App = () => (
     <Router>
       <Switch>
         <Route path='/resume'>
-          <Resume/>
+          <Suspense fallback={renderLoader()}>
+            <Resume/>
+            <IconMenu/>
+            <Footer/>
+          </Suspense>
         </Route>
 
         <Route path='/portfolio'>
-          <Portfolio/>
+          <Suspense fallback={renderLoader()}>
+            <Portfolio/>
+            <IconMenu/>
+            <Footer/>
+          </Suspense>
         </Route>
 
         <Route path='/about'>
-          <About/>
+          <Suspense fallback={renderLoader()}>
+            <About/>
+            <IconMenu/>
+            <Footer/>
+          </Suspense>
         </Route>
 
         <Route path='/'>
-          <LandingContent/>
+          <Suspense fallback={renderLoader()}>
+            <LandingContent/>
+            <IconMenu/>
+            <Footer/>
+          </Suspense>
         </Route>
       </Switch>
-
-      <IconMenu/>
-      <Footer/>
     </Router>
 )
 

@@ -9,7 +9,7 @@ import NameWithImage from '../../components/namewithimage/namewithimage';
 let skills = [
     {
         icon: <FontAwesomeIcon icon={faHtml5}/>,
-        title: 'React.js'
+        title: 'HTML'
     },
     {
         icon: <FontAwesomeIcon icon={faCss3}/>,
@@ -17,27 +17,27 @@ let skills = [
     },
     {
         icon: <FontAwesomeIcon icon={faNodeJs}/>,
-        title: 'Node.js'
+        title: 'NodeJS'
     },
     {
         icon: <FontAwesomeIcon icon={faJsSquare}/>,
-        title: 'GitHub'
+        title: 'JavaScript'
     },
     {
         icon: <FontAwesomeIcon icon={faReact}/>,
-        title: 'React.js'
+        title: 'ReactJS'
     },
     {
         icon: <FontAwesomeIcon icon={faGitAlt}/>,
-        title: 'CSS'
+        title: 'Git'
     },
     {
         icon: <FontAwesomeIcon icon={faPython}/>,
-        title: 'Node.js'
+        title: 'Python'
     },
     {
         icon: <FontAwesomeIcon icon={faLinux}/>,
-        title: 'GitHub'
+        title: 'Linux'
     }
 ]
 
