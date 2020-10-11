@@ -37,7 +37,7 @@ let extLinks = [
     {
         icon: <FontAwesomeIcon icon={faGithub}/>,
         url: 'https://github.com/deybyr647',
-        title: 'Instagram'
+        title: 'GitHub'
     },
     {
         icon: <FontAwesomeIcon icon={faInstagram}/>,
