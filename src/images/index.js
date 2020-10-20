@@ -5,5 +5,7 @@ const P5_Snake = require('./projectImages/P5-Snake.webp');
 const personalImage = require('./deyby.webp');
 const Snake = require('./projectImages/Snake-js.webp');
 const nycCrime = require('./projectImages/nycCrime.webp');
+const moodcam = require('./projectImages/moodcam.webp');
+const oldsite = require('./projectImages/deprecatedWebsite.webp');
 
-export { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, personalImage, Snake, nycCrime};
+export { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, personalImage, Snake, nycCrime, moodcam, oldsite};

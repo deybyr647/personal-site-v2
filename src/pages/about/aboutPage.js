@@ -2,7 +2,7 @@ import React from 'react';
 import './aboutPage.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faNodeJs, faCss3, faHtml5, faLinux, faGitAlt, faPython, faJsSquare } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faNodeJs, faCss3, faHtml5, faLinux, faGitAlt, faPython, faJsSquare, faJava } from '@fortawesome/free-brands-svg-icons';
 
 import NameWithImage from '../../components/namewithimage/namewithimage';
 
@@ -34,6 +34,10 @@ let skills = [
     {
         icon: <FontAwesomeIcon icon={faPython}/>,
         title: 'Python'
+    },
+    {
+        icon: <FontAwesomeIcon icon={faJava}/>,
+        title: 'Java'
     },
     {
         icon: <FontAwesomeIcon icon={faLinux}/>,

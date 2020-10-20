@@ -5,9 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
-import { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, Snake, nycCrime} from '../../images';
+import { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, Snake, nycCrime, moodcam, oldsite} from '../../images';
 
 let projectList = [
+    {
+        demoUrl: 'https://github.com/deybyr647/CN-Hackathon',
+        name: 'MoodCam',
+        description: '1st place winning project at Google Code Next\'s 3rd Annual Summer Hackathon. Native Windows app which uses artificial intelligence to recognize mood based on facial expressions in pictures, and tells you to take breaks when you look upset while using a certain app. Built using Rust, Python, NodeJS, ExpressJS, HTML, and CSS',
+        img: moodcam,
+        githubUrl: 'https://github.com/I-graham/CN-Hackathon'
+    },
     {
         demoUrl: 'https://deybyr647.github.io/RecycleNearMe/',
         name: 'RecycleNearMe',
@@ -21,6 +28,13 @@ let projectList = [
         description: 'A simple site which shows current weather information for a given US zip code. Weather information provided by OpenWeatherMap API. Created with HTML, CSS, and JavaScript',
         img: simplWeather,
         githubUrl: 'https://github.com/deybyr647/simplWeather'
+    },
+    {
+        demoUrl: 'https://deybyr647.github.io/personal-website-deprecated/',
+        name: 'Personal Website v1',
+        description: 'The first iteration of my personal portfolio website. Built using HTML, CSS, and JavaScript',
+        img: oldsite,
+        githubUrl: 'https://github.com/deybyr647/personal-website-deprecated'
     },
     {
         demoUrl: 'https://deybyr647.github.io/p5-snake.js/',
