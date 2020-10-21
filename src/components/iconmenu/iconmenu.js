@@ -57,7 +57,7 @@ let ExternalLink = ({linkObj}) => (
 let IconMenu = () => {
     return(
         <ul className='cbp-vimenu'>
-        <li className='initials' title='home'><Link to='/'><span>DR</span></Link></li>
+        <li className='initials' title='Home'><Link to='/'><span>DR</span></Link></li>
             {routes.map(r => <RouteLink routeObj={r} />)}
             {extLinks.map(l => <ExternalLink linkObj={l} />)}
         </ul>
