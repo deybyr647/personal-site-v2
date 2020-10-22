@@ -62,7 +62,7 @@ let SkillIcon = ({iconObj}) => ( //Same as TechIcon in App.js
 let AboutMyself = () => (
     <div className='aboutMe'>
         <h4>About Me</h4>
-        <p>My name is Deyby Antony Rodriguez and currently, I am a high school senior living in New York. Technology, well to be more specific, Computer Science, has been an interest for quite some time now. I aspire to one day become a web developer, in Front-End, Back-End, or Full-Stack development. Aside from technology, I love the winter, New York City, and I am also interested in business and finance.</p>
+        <p>My name is Deyby Antony Rodriguez and currently, I am a student living in New York. Technology, well to be more specific, Computer Science, has been an interest for quite some time now. I aspire to one day become a professional Full-Stack Web Developer. Aside from technology, I love the winter, New York City, and I am also interested in business and finance.</p>
     </div>
 )
 

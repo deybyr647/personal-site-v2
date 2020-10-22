@@ -11,21 +11,21 @@ let projectList = [
     {
         demoUrl: 'https://github.com/deybyr647/CN-Hackathon',
         name: 'MoodCam',
-        description: '1st place winning project at Google Code Next\'s 3rd Annual Summer Hackathon. Native Windows app which uses artificial intelligence to recognize mood based on facial expressions in pictures, and tells you to take breaks when you look upset while using a certain app. Built using Rust, Python, NodeJS, ExpressJS, HTML, and CSS',
+        description: 'Collaborative 1st place winning project at Google Code Next\'s 3rd Annual Summer Hackathon. Native Windows app which uses artificial intelligence to recognize mood based on facial expressions in pictures, and tells you to take breaks when you look upset while using a certain app. Built using Rust, Python, NodeJS, ExpressJS, Face-API.js, HTML, CSS and JavaScript',
         img: moodcam,
         githubUrl: 'https://github.com/I-graham/CN-Hackathon'
     },
     {
         demoUrl: 'https://deybyr647.github.io/RecycleNearMe/',
         name: 'RecycleNearMe',
-        description: 'A site which aims to educate its users about recycling & which also displays information about nearby recycling centers using user location. Created with HTML, CSS, JavaScript, Google Maps JavaScript API, Google Places API, GNews API and NewsAPI',
+        description: 'A site which aims to educate its users about recycling & which also displays information about nearby recycling centers using user location. Created with HTML, CSS, JavaScript, Google Maps JavaScript API, Google Maps Places API, GNews API and NewsAPI',
         img: RecycleNearMe,
         githubUrl: 'https://github.com/deybyr647/RecycleNearMe'
     },
     {
         demoUrl: 'https://deybyr647.github.io/simplWeather/',
         name: 'simplWeather',
-        description: 'A simple site which shows current weather information for a given US zip code. Weather information provided by OpenWeatherMap API. Created with HTML, CSS, and JavaScript',
+        description: 'A simple site which shows current weather information for a given US zip code. Created with HTML, CSS, JavaScript, and with OpenWeatherMap\'s Weather API',
         img: simplWeather,
         githubUrl: 'https://github.com/deybyr647/simplWeather'
     },
@@ -46,21 +46,21 @@ let projectList = [
     {
         demoUrl: 'https://colab.research.google.com/drive/1xeE7-buPI10MpJAooznkm8RTjsJOTVuE?usp=sharing',
         name: 'NYC Crime Data Across The Years',
-        description: 'Data Science project which involved the analysis of criminal records spanning from 2010 to 2019, from New York City. Analysis was conducted using Python and Pandas within a Google Colaboratory Notebook',
+        description: 'Data Science project which involved the analysis of criminal records spanning from 2010 to 2019, from New York City. Analysis was conducted using Python and Pandas within a Google Colaboratory Notebook, using publicly available criminal data from the City of New York',
         img: nycCrime,
         githubUrl: 'https://github.com/deybyr647/NYC-Crime-Data-Across-The-Years'
     },
     {
         demoUrl: 'https://deybyr647.github.io/CN-React-ToDoList/',
         name: 'React To Do List',
-        description: 'Guided project, in which I created a To Do List app, along with some peers at a Google Code Next bootcamp using StackBlitz IDE, React.js and Bootstrap CSS',
+        description: 'Guided project, in which I created a To Do List app, along with some peers at a Google Code Next bootcamp using ReactJS and Bootstrap CSS',
         img: ReactToDoList,
         githubUrl: 'https://github.com/deybyr647/CN-React-ToDoList'
     },
     {
         demoUrl: 'https://deybyr647.github.io/snake.js/',
         name: 'Snake.js',
-        description: 'A remake of the popular game Snake, made with HTML, CSS, and JavaScript',
+        description: 'A remake of the popular game Snake, using HTML, CSS, and JavaScript',
         img: Snake,
         githubUrl: 'https://github.com/deybyr647/snake.js/'
 

@@ -4,7 +4,7 @@ import './footer.css';
 let Footer = () => (
     <div className='main'>
         <div className='footer'>
-            <p> <a href='https://deybyr647.com'>Deyby Rodriguez</a> | Copyright &#169;2020</p>
+            <p>&#169; 2020 | <a href='https://deybyr647.com'>Deyby Rodriguez</a></p>
         </div>
     </div>
 )

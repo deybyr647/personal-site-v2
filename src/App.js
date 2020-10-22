@@ -41,7 +41,7 @@ let TechIcon = ({iconObj}) => (
 let techIcons = [
   {
     icon: <FontAwesomeIcon icon={faReact}/>,
-    title: 'React.js'
+    title: 'ReactJS'
   },
   {
     icon: <FontAwesomeIcon icon={faCss3}/>,
@@ -49,7 +49,7 @@ let techIcons = [
   },
   {
     icon: <FontAwesomeIcon icon={faNodeJs}/>,
-    title: 'Node.js'
+    title: 'NodeJS'
   },
   {
     icon: <FontAwesomeIcon icon={faGithub}/>,
