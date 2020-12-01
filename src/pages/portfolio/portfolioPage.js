@@ -5,9 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
-import { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, Snake, nycCrime, moodcam, oldsite} from '../../images';
+import { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, Snake, nycCrime, moodcam, oldsite, reactSimplWeather} from '../../images';
 
 let projectList = [
+    {
+        demoUrl: 'https://simplweather-faec5.web.app/',
+        name: 'SimplWeather v2',
+        description: 'A single page weather app which simply takes a zip code as input and uses it to provide current weather data, along with a 7 day weather forecast. Made with React, Bootstrap, OpenWeatherMap\'s API, Google Maps Geocoding API, along with other libraries under the hood.',
+        img: reactSimplWeather,
+        githubUrl: 'https://github.com/deybyr647/React-SimplWeathr'
+    },
     {
         demoUrl: 'https://github.com/deybyr647/CN-Hackathon',
         name: 'MoodCam',
@@ -24,7 +31,7 @@ let projectList = [
     },
     {
         demoUrl: 'https://deybyr647.github.io/simplWeather/',
-        name: 'simplWeather',
+        name: 'SimplWeather',
         description: 'A simple site which shows current weather information for a given US zip code. Created with HTML, CSS, JavaScript, and with OpenWeatherMap\'s Weather API',
         img: simplWeather,
         githubUrl: 'https://github.com/deybyr647/simplWeather'

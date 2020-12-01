@@ -22,7 +22,7 @@ let ResumeDoc = () => (
 
 let ExternalView = () => (
     <div className='main'>
-        <h4><a target='_blank' rel='noopener noreferrer' href='https://drive.google.com/file/d/13s5BldzbKPH-ypEO99fq2iDfvYWCRufA/view?usp=sharing'>View In A New Tab</a></h4>
+        <h4><a target='_blank' rel='noopener noreferrer' href='https://drive.google.com/file/d/1pG2iOI74eOXmLITIXZnXPNfNXxVV4k7b/view?usp=sharing'>View In A New Tab</a></h4>
     </div>
 )
 
