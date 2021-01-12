@@ -2,7 +2,7 @@ import React from 'react';
 import './iconmenu.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase, faFileAlt, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom";
 
 let routes = [
@@ -38,11 +38,6 @@ let extLinks = [
         icon: <FontAwesomeIcon icon={faGithub}/>,
         url: 'https://github.com/deybyr647',
         title: 'GitHub'
-    },
-    {
-        icon: <FontAwesomeIcon icon={faInstagram}/>,
-        url: 'https://instagram.com/deybyr647',
-        title: 'Instagram'
     }
 ]
 
