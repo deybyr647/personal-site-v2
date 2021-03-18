@@ -16,7 +16,7 @@ let projectList = [
         githubUrl: 'https://github.com/deybyr647/RecycleIT'
     },
     {
-        demoUrl: 'https://simplweather-faec5.web.app/',
+        demoUrl: 'https://simplweatherv1.deybyr647.com',
         name: 'SimplWeather v2',
         description: 'A single page weather app which simply takes a zip code as input and uses it to provide current weather data, along with a 7 day weather forecast. Made with React, Bootstrap, OpenWeatherMap\'s API, Google Maps Geocoding API, along with other libraries under the hood.',
         img: reactSimplWeather,
@@ -30,7 +30,7 @@ let projectList = [
         githubUrl: 'https://github.com/I-graham/CN-Hackathon'
     },
     {
-        demoUrl: 'https://deybyr647.github.io/RecycleNearMe/',
+        demoUrl: 'https://rnm.deybyr647.com',
         name: 'RecycleNearMe',
         description: 'A site which aims to educate its users about recycling & which also displays information about nearby recycling centers using user location. Created with HTML, CSS, JavaScript, Google Maps JavaScript API, Google Maps Places API, GNews API and NewsAPI',
         img: RecycleNearMe,
@@ -51,7 +51,7 @@ let projectList = [
         githubUrl: 'https://github.com/deybyr647/personal-website-deprecated'
     },
     {
-        demoUrl: 'https://deybyr647.github.io/p5-snake.js/',
+        demoUrl: 'https://p5snakejs.deybyr647.com',
         name: 'P5-Snake.js',
         description: 'Snake.js, but created using the P5.js library, for added features and difficulty',
         img: P5_Snake,
@@ -72,7 +72,7 @@ let projectList = [
         githubUrl: 'https://github.com/deybyr647/CN-React-ToDoList'
     },
     {
-        demoUrl: 'https://deybyr647.github.io/snake.js/',
+        demoUrl: 'https://snakejs.deybyr647.com',
         name: 'Snake.js',
         description: 'A remake of the popular game Snake, using HTML, CSS, and JavaScript',
         img: Snake,
