@@ -75,7 +75,7 @@ let About = () => (
 
     <div className='main'>
         <MySkills>
-            {skills.map(s => <SkillIcon iconObj={s}/>)}
+            {skills.map((s, index) => <SkillIcon key={index} iconObj={s}/>)}
         </MySkills>
     </div>
     </>

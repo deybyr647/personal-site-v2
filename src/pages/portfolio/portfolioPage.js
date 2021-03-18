@@ -5,9 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
-import { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, Snake, nycCrime, moodcam, oldsite, reactSimplWeather} from '../../images';
+import {RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, Snake, nycCrime, moodcam, oldsite, reactSimplWeather, RecycleIT} from '../../images';
 
 let projectList = [
+    {
+        demoUrl: 'https://recycleit.deybyr647.com',
+        name: 'RecycleIT',
+        description: 'RecycleIT is a web app designed to motivate its users to recycle, while also educating them! The app provides users with information regarding recycling guidelines and the benefits of recycling! Most importantly, the app aids its users in finding nearby recycling centers. Using current location or a zip code, RecycleIT shows users nearby recycling center locations on a map, and provides them with valuable information, such as operating hours, addresses, websites, and more! Developed using TypeScript, NextJS, Bootstrap, and Google Maps Platform APIs',
+        img: RecycleIT,
+        githubUrl: 'https://github.com/deybyr647/RecycleIT'
+    },
     {
         demoUrl: 'https://simplweather-faec5.web.app/',
         name: 'SimplWeather v2',
@@ -95,7 +102,7 @@ let Project = ({project}) => (
 
 let ProjectContainer = () => (
     <div className='main'>
-        {projectList.map(p => <Project project={p}/>)}
+        {projectList.map((p, index) => <Project project={p} key={index}/>)}
     </div>
 )
 

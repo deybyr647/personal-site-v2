@@ -62,8 +62,8 @@ let LandingContent = () => (
     <NameWithImage/>
     <BriefIntro/>
     <TechUsed>
-      {techIcons.map(ico => (
-        <TechIcon iconObj={ico}/>
+      {techIcons.map((ico, index) => (
+        <TechIcon key={index} iconObj={ico}/>
       ))}
     </TechUsed>
   </div>

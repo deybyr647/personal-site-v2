@@ -8,5 +8,6 @@ const nycCrime = require('./projectImages/nycCrime.webp');
 const moodcam = require('./projectImages/moodcam.webp');
 const oldsite = require('./projectImages/deprecatedWebsite.webp');
 const reactSimplWeather = require('./projectImages/React-SimplWeather.webp');
+const RecycleIT = require('./projectImages/recycleit.webp');
 
-export { RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, personalImage, Snake, nycCrime, moodcam, oldsite, reactSimplWeather};
+export {RecycleNearMe, ReactToDoList, simplWeather, P5_Snake, personalImage, Snake, nycCrime, moodcam, oldsite, reactSimplWeather, RecycleIT};

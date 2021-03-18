@@ -53,8 +53,8 @@ let IconMenu = () => {
     return(
         <ul className='cbp-vimenu'>
         <li className='initials' title='Home'><Link to='/'><span>DR</span></Link></li>
-            {routes.map(r => <RouteLink routeObj={r} />)}
-            {extLinks.map(l => <ExternalLink linkObj={l} />)}
+            {routes.map((r, index) => <RouteLink key={index} routeObj={r} />)}
+            {extLinks.map((l, index) => <ExternalLink key={index + 10} linkObj={l} />)}
         </ul>
     )
 } 
